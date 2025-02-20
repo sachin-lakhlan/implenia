@@ -17,6 +17,18 @@
     line-height: 20.11px;
 }
 
+.lh-61 {
+    line-height: 61.59px;
+}
+
+.lh-27 {
+    line-height: 27px;
+}
+
+.lh-100 {
+    line-height: 100.56px;
+}
+
 .menu-lines {
     width: 30px;
     height: 5px;
@@ -82,6 +94,14 @@
     margin-top: 25px;
 }
 
+.pt-128 {
+    padding-top: 128px;
+}
+
+.pb-64 {
+    padding-bottom: 64px;
+}
+
 .nav-menu-text {
     color: black;
 }
@@ -93,7 +113,7 @@
 .header-btn {
     border: 2px solid #FFFFFF !important;
     border-radius: 47px;
-    padding: 11px 45px 11px 45px;
+    padding: 21px 51px 21px 51px;
     background: none !important;
     color: white;
     height: 67px;
@@ -110,6 +130,59 @@
 
 .text-shadow {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lts-0-28 {
+    letter-spacing: -0.28px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.pb-129 {
+    padding-bottom: 129px;
+}
+
+/* section-1 */
+.mt-134 {
+    margin-top: 134px;
+}
+
+.submit-ideal-btn {
+    /* padding: 14px 70px 14px 70px; */
+    width: 268px;
+    height: 56px;
+    background: white !important;
+    border: 2px solid var(--red);
+    border-radius: 47px;
+    margin-top: 35px;
+}
+
+.submit-ideal-btn:hover {
+    background: rgb(216, 207, 207) !important;
+}
+
+.pb-144 {
+    padding-bottom: 144px;
+}
+
+.h-144 {
+    height: 144px;
+}
+
+.ml-27 {
+    margin-left: 27px;
+}
+
+.mx-w-372 {
+    max-width: 372px;
+    background-color: #F3B72C;
+}
+
+.video-text {
+    top: 278px;
+    left: 202px;
 }
 
 @media (max-width:991.98px) {

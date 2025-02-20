@@ -5,6 +5,11 @@
     --fs-md: 49px;
     --fs-lg: 76px;
     --fs-xl: 80px;
+    /* --colors */
+    --light-black: #1D1D1B;
+    --yellow: #FEBE32;
+    --red: #FF132D;
+    --off-white: #F5F5F5;
 }
 
 .fs-extra-small {
@@ -29,6 +34,23 @@
 
 .fs-xl {
     font-size: var(--fs-xl);
+}
+
+/* colors */
+.light-black {
+    color: var(--light-black);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.red {
+    color: var(--red);
+}
+
+.bg-off-white {
+    background-color: var(--off-white);
 }
 
 @media (max-width:767.98px) {
