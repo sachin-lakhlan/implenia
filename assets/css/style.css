@@ -181,8 +181,15 @@
 }
 
 .video-text {
-    top: 278px;
-    left: 202px;
+    left: 60px;
+    top: 24px;
+}
+
+.video {
+    max-width: 1064px !important;
+    width: 100%;
+    min-height: 580px;
+    border-radius: 25px;
 }
 
 @media (max-width:991.98px) {
