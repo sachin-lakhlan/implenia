@@ -34,12 +34,16 @@
 
 }
 
+.gap-38 {
+    gap: 38px;
+}
+
 .rotate40 {
-    transform: rotate(40deg);
+    transform: rotate(42deg);
 }
 
 .rotate-45 {
-    transform: rotate(-44deg);
+    transform: rotate(-43deg);
 }
 
 .mx-w-1177 {
@@ -87,10 +91,9 @@
 }
 
 .header-btn {
-    max-width: 312px;
     border: 2px solid #FFFFFF !important;
     border-radius: 47px;
-    padding: 11px 22px 11px 22px;
+    padding: 11px 45px 11px 45px;
     background: none !important;
     color: white;
     height: 67px;
