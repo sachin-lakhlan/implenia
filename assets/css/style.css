@@ -58,7 +58,7 @@
     background-image: url(../image/png/header-image.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: right;
 }
 
 .py-18 {
@@ -91,13 +91,21 @@
     border: 2px solid #FFFFFF !important;
     border-radius: 47px;
     padding: 11px 22px 11px 22px;
-    background-color: unset !important;
+    background: none !important;
     color: white;
+}
+
+.header-btn:hover {
+    background-color: rgb(196, 192, 192) !important;
 }
 
 .header-left-image {
     left: 0;
     top: 35%;
+}
+
+.text-shadow {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width:991.98px) {
@@ -130,6 +138,9 @@
         margin: auto;
     }
 
+    .mt-25 {
+        margin-top: 25px;
+    }
 }
 
 @media (max-width:767.98px) {
@@ -137,8 +148,8 @@
         line-height: 60px;
     }
 
-    .z-3-btn {
-        z-index: 3 !important;
+    .z-2-btn {
+        z-index: 2 !important;
         position: relative;
     }
 }
@@ -148,4 +159,7 @@
         line-height: 45px;
     }
 
+    .nav-logo {
+        width: 60px;
+    }
 }
