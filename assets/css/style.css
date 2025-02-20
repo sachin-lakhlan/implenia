@@ -87,19 +87,17 @@
 }
 
 .header-btn {
-    border-radius: 47px;
-    background: none;
-    border: 2px solid white;
     max-width: 312px;
-    max-height: 67px;
+    border: 2px solid #FFFFFF !important;
     border-radius: 47px;
-    width: 268px;
-    height: 45px;
+    padding: 11px 22px 11px 22px;
+    background-color: unset !important;
+    color: white;
 }
 
 .header-left-image {
     left: 0;
-    top: 264px;
+    top: 35%;
 }
 
 @media (max-width:991.98px) {
@@ -122,6 +120,32 @@
 
     .show-navbar {
         right: 0 !important;
+    }
+
+    .center {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+}
+
+@media (max-width:767.98px) {
+    .lh-80 {
+        line-height: 60px;
+    }
+
+    .z-3-btn {
+        z-index: 3 !important;
+        position: relative;
+    }
+}
+
+@media (max-width:575.98px) {
+    .lh-80 {
+        line-height: 45px;
     }
 
 }
