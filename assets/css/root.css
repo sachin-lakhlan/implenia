@@ -10,6 +10,10 @@
     --yellow: #FEBE32;
     --red: #FF132D;
     --off-white: #F5F5F5;
+    --blue: #009FE3;
+    --light-yellow: #FEBE32;
+    --white: #FFFFFF;
+    --gray: #8F9090;
 }
 
 .fs-extra-small {
@@ -51,6 +55,26 @@
 
 .bg-off-white {
     background-color: var(--off-white);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.light-yellow {
+    color: var(--light-yellow);
+}
+
+.white {
+    color: var(--white);
+}
+
+.mt-62 {
+    margin-top: 62px;
 }
 
 @media (max-width:767.98px) {
